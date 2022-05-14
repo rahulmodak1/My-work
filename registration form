@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Board infinity RegistrationForm</title>
+    <style>
+div {
+  background-color: #CFFFDC;
+  padding: 50px 50px ; 
+  box-shadow: 10px 5px 60px 10px rgba(9, 78, 205, 0.3);
+  border-radius:30px ;
+  width: 550px;
+  height: 450px;
+  margin-top: 50px;
+  margin-left: 600px;
+  margin-right: 20px ;
+  position: relative;
+   /* background-image: url(https://res.cloudinary.com/boardinfinity/image/upload/c_scale,f_auto,h_168,q_auto,w_268/dpr_auto/v1/bi-websites/pages/coaching/how-does-it-work-03.svg); */ */
+   
+
+}
+        .input-design{
+            color:blue;
+            background-color: #EFFFFD
+        
+        
+        }
+        .input-design{
+            width: 250px;
+            margin-top: 20px;
+            margin-left: 10px;
+            margin-bottom: 8px;
+            padding: 2px;
+             color: rgb(255, 0, 132);
+             border: 0px;
+             border-bottom: 2px solid rgba(11, 141, 227, 0.757);
+             border-radius: 20px;
+              
+
+        }
+     body {
+         flex-flow: column;
+         flex-wrap: wrap;
+     }
+        
+        .button-design{
+            width: 170px;
+            margin-top: 80px;
+            margin-left: 190px;
+            padding:5px;
+            box-shadow: 10px 5px 60px 10px rgba(54, 11, 164, 0.291);
+            border-radius: 20px;
+        }
+        form h1{
+            margin-left: 55px;
+           text-shadow: 10px 8px 30px;
+           margin-top: 0%;
+        }
+        img{
+            margin-left: 200px;
+            margin-top: 0%;
+           
+        }
+        input-design:hover{
+            background-color: blue;
+            color: black;
+        }
+        input:hover{
+            color: rgb(9, 29, 255);
+             background-color:#FFF2F9 ; 
+        }
+       
+input:focus{
+     background: #B1BCE6
+  
+}
+input:focus {
+    color: rgb(0, 0, 0);
+
+}  
+    .button{
+        background-color:#C4DDFF ;
+    }
+    button:hover{
+        background-color:#516BEB ;
+       
+    }
+  
+   .img-responsive{
+     margin-left: 780px;
+   }
+select{
+    color: #0000cd;
+    border-radius: 10px;
+    background-color: #EDFFEC;
+   
+
+}
+
+option{
+    color: #eb5182;
+}
+.take{
+    margin-right: 10px;
+}
+.update{
+    margin-right: 10px;
+}
+    </style>
+</head>
+<body>
+ 
+    <img src="https://res.cloudinary.com/boardinfinity/image/upload/c_scale,f_auto,q_auto,w_300/dpr_auto/v1/bi-websites/logos/board-infinity.png" alt="" class="img-responsive">
+  <div>
+     
+    <form>
+        <img src="https://res.cloudinary.com/boardinfinity/image/upload/c_scale,f_auto,q_auto,w_160/dpr_auto/v1/bi-websites/logos/board-infinity.png" alt="">
+        <h1> Board Infinity Registration</h> form</h1>
+       
+        <input type="text" required placeholder="First Name*" class="input-design ">
+        <input type="text"required placeholder="Last Name*" class="input-design">
+        <input type="gender" placeholder="Gender" class="input-design update">
+        <select class="gender-part">
+         <option > Male</option>
+         <option>Female</option>
+         <option>Transgender</option</>
+        </select>
+    
+        <input type="date" required  placeholder="Date Of Birth*" class="input-design take">
+        <caption class="dob">Date of Birth</caption>
+        <input type="email"  required placeholder="Email id*" class="input-design">
+        <input type="password" required placeholder="Password*" class="input-design">
+        <input type="number"required placeholder="Mobile No*." class="input-design">
+        <input type="text"  placeholder="Address" class="input-design" >
+        <input type="submit" required value= "Click here to Submit"placeholder="Click here to submit" class="button-design button">
+    
+    </form>
+</div>
+</body>
+</html>
